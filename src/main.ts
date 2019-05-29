@@ -12,11 +12,11 @@ sniffles.poop();
 fluffy.meow();
 fluffy.poop();
 
-cleanBot.drive();
 cleanBot.clean();
+cleanBot.drive();
 
-murderBot.drive();
 murderBot.kill();
+murderBot.drive();
 
 murderDogBot.bark();
 murderDogBot.drive();
