@@ -5,51 +5,56 @@ import { applyMixins } from './mixins'
 
 export class Dog
 	extends Actor
-	implements Pooper, Barker {
+	implements Pooper, Barker
+{
 	poop: () => void;
 	bark: () => void;
 }
-applyMixins( Dog, [ Pooper, Barker ] );
+applyMixins( Dog, [Pooper, Barker] );
 
 
 export class Cat
 	extends Actor
-	implements Pooper, Meower {
+	implements Pooper, Meower
+{
 	poop: () => void;
 	meow: () => void;
 }
-applyMixins( Cat, [ Pooper, Meower ] );
+applyMixins( Cat, [Pooper, Meower] );
 
 
 export class CleanOTron
 	extends Actor
-	implements Driver, Cleaner {
+	implements Driver, Cleaner
+{
 	position: number;
 	speed: number;
 	drive: () => void;
 	clean: () => void;
 }
-applyMixins( CleanOTron, [ Driver, Cleaner ] );
+applyMixins( CleanOTron, [Driver, Cleaner] );
 
 
 export class KillOTron
 	extends Actor
-	implements Driver, Killer {
+	implements Driver, Killer
+{
 	position: number;
 	speed: number;
 	drive: () => void;
 	kill: () => void;
 }
-applyMixins( KillOTron, [ Driver, Killer ] );
+applyMixins( KillOTron, [Driver, Killer] );
 
 
 export class MurderDogOTron
 	extends Actor
-	implements Driver, Barker, Killer {
+	implements Driver, Barker, Killer
+{
 	position: number;
 	speed: number;
 	drive: () => void;
 	bark: () => void;
 	kill: () => void;
 }
-applyMixins( MurderDogOTron, [ Driver, Barker, Killer ] );
+applyMixins( MurderDogOTron, [Driver, Barker, Killer] );
