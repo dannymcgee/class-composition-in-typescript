@@ -31,6 +31,7 @@ export class Driver extends Actor
 
 	drive ()
 	{
+		console.log( 'Vroom vroom!' )
 		this.position += this.speed
 	}
 }
