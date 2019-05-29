@@ -2,7 +2,7 @@ import { Actor } from './actor'
 
 export class Pooper extends Actor {
 	poop () {
-		console.log( `${this.name} just ruined your carpet` )
+		console.log( `${this.name} just ruined your carpet 💩` )
 	}
 }
 
