@@ -2,12 +2,12 @@
 	"name": "composition-in-ts",
 	"version": "1.0.0",
 	"description": "",
-	"main": "main.js",
+	"main": "./src/main.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "webpack"
 	},
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"ts-loader": "^6.0.1",
 		"typescript": "^3.4.5",
