@@ -1,6 +1,6 @@
 import { Actor } from './actor'
 import { Pooper, Barker, Meower, Driver, Cleaner, Killer } from './actions'
-import { applyMixins } from './mixins'
+import { applyMixins } from './mixin'
 
 
 export class Dog
